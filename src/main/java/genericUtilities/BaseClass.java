@@ -45,7 +45,7 @@ public class BaseClass {
 	
 	
 	@BeforeClass(alwaysRun = true)
-	//@BeforeTest //--> --> for parallel execution
+	//@BeforeTest // --> for parallel execution
 	public void bcConfig() throws IOException
 	{
 		String URL = fUtil.readDataFromPropertyFile("url");

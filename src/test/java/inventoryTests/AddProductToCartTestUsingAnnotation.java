@@ -42,6 +42,7 @@ public class AddProductToCartTestUsingAnnotation extends BaseClass{
 		
 		//Validate the product in cart
 		CartPage cp = new CartPage(driver);
+		
 		String productInCart = cp.captureProductName();
 		
 	//	Assert.assertEquals(productInCart, PRODUCTNAME); // to compare two 
@@ -55,6 +56,7 @@ public class AddProductToCartTestUsingAnnotation extends BaseClass{
 	public void demo()
 	{
 		//Assert.fail();
+		System.out.println("Hello Demo");
 		System.out.println("Hello Demo");
 		
 	}
