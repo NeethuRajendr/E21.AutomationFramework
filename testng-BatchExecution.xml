@@ -3,9 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="inventoryTests.AddProductToCartTest"/>
+     
       <class name="inventoryTests.HighestProductToCartUsingAnnotationTest"/>
-      <class name="inventoryTests.highestProductToCartTest"/>
       <class name="inventoryTests.AddProductToCartTestUsingAnnotation"/>
     </classes>
   </test> <!-- Test -->
