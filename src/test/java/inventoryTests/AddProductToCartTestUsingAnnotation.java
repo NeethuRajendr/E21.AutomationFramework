@@ -42,7 +42,6 @@ public class AddProductToCartTestUsingAnnotation extends BaseClass{
 		
 		//Validate the product in cart
 		CartPage cp = new CartPage(driver);
-		
 		String productInCart = cp.captureProductName();
 		
 	//	Assert.assertEquals(productInCart, PRODUCTNAME); // to compare two 

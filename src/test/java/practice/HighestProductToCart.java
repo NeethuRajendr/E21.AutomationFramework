@@ -88,6 +88,7 @@ public class HighestProductToCart {
 		else
 		{
 			System.out.println("FAILED");
+			System.out.println("FAILED!!!!!!");
 		}
 		
 		//Logout Application
