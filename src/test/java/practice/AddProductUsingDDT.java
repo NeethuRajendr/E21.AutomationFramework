@@ -110,6 +110,8 @@ public class AddProductUsingDDT {
 		else
 		{
 			System.out.println("FAIL");
+			System.out.println("FAIL");
+			System.out.println("FAIL");
 		}
 		
 		//Logout of Application
